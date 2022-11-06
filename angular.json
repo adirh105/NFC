@@ -30,7 +30,6 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/NDEF.js"
             ]
           },
           "configurations": {
