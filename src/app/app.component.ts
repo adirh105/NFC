@@ -10,6 +10,7 @@ function scan() {
     };
     ndef.onreading = (event: any) => {
       console.log("NDEF message read.");
+      console.log('event', event);
     };
   }).catch((error: any) => {
     console.log(`Error! Scan failed to start: ${error}.`);
